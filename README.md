@@ -1,5 +1,5 @@
 # Modern CSS type scale and boilerplate
-## A modern CSS boilerplate for web projects in 2018.
+## For web projects in 2018.
 ## I adapted CSS boilerplate from the projects below:
 - http://typecast.com/blog/a-more-modern-scale-for-web-typography
 - https://github.com/google/web-starter-kit/
