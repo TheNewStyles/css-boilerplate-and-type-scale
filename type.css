@@ -1,18 +1,18 @@
-body {
+html, body {
   font-size: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
   font-size: 1em;
   line-height: 1.25;
 }
 
 body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
-} 
+}
 
 h1, h2, h3, h4 {
-/*  Font-Family: 'add font here', Sans-Serif; */
+    Font-Family: 'Roboto', 'Helvetica', sans-serif;
 }
 
 h1 {
@@ -44,6 +44,19 @@ img, embed, object, video {
   max-width: 100%;
 }
 
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
 @media (min-width: 43.75em) {
   body {
       font-size: 1em;
@@ -58,7 +71,7 @@ img, embed, object, video {
   h2 {
       font-size: 2em;
       line-height: 1.25;
-  }    
+  }
 
   h3 {
       font-size: 1.5em;
@@ -89,5 +102,5 @@ img, embed, object, video {
   h3 {
     font-size: 1.75em;
     line-height: 1.25;
-  }    
+  }
 }
